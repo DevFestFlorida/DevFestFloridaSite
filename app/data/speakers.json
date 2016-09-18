@@ -273,5 +273,17 @@
         "link": "https://twitter.com/philosohacker"
       }
     ]
+  },
+  "13": {
+    "id": 13,
+    "featured": false,
+    "name": "TBA",
+    "title": "TBA",
+    "company": "TBA",
+    "country": " United States",
+    "photoUrl": "/images/people/",
+    "bio": "TBA",
+    "tags": ["android", "firebase"],
+    "socials": []
   }
 }

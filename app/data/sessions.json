@@ -173,5 +173,23 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": ["android"]
+  },
+  "114": {
+    "id": 114,
+    "title": "Writing Testable Android Applications",
+    "description": "For a long time, the support for testing on Android has been lacking. More recently, with support for unit testing (introduced in Android Studio 1.2) and Espresso, the tooling for testing Android applications has improved. Although we now have good testing tools available, many Android apps are structured in a way that makes it difficult for those apps to take advantage of these newer testing tools. This talk is about how to use dependency injection (with Dagger), MVP, and build flavors to write testable Android applications that make the most of Espresso and Android Studio's unit testing support.",
+    "speakers": [11],
+    "language": "English",
+    "complexity": "Intermediate",
+    "tags": ["android"]
+  },
+  "115": {
+    "id": 115,
+    "title": "Firebase on Android",
+    "description": "TBA.",
+    "speakers": [13],
+    "language": "English",
+    "complexity": "Intermediate",
+    "tags": ["android", "firebase"]
   }
 }
