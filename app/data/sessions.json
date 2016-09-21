@@ -91,7 +91,7 @@
     "speakers": [2],
     "language": "English",
     "complexity": "Beginner",
-    "tags": ["android", "ux"]
+    "tags": ["android"]
   },
   "105": {
     "id": 105,
@@ -110,5 +110,63 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": ["pwas", "web", "polymer"]
+  },
+  "107": {
+    "id": 107,
+    "title": "Writing Testable Android Applications",
+    "description": "For a long time, the support for testing on Android has been lacking. More recently, with support for unit testing (introduced in Android Studio 1.2) and Espresso, the tooling for testing Android applications has improved. Although we now have good testing tools available, many Android apps are structured in a way that makes it difficult for those apps to take advantage of these newer testing tools. This talk is about how to use dependency injection (with Dagger), MVP, and build flavors to write testable Android applications that make the most of Espresso and Android Studio's unit testing support.",
+    "speakers": [7],
+    "language": "English",
+    "complexity": "Intermediate",
+    "tags": ["android", "testing", "espresso","reactive","tools"]
+  },
+  "108": {
+    "id": 108,
+    "title": "Designing as a Developer",
+    "description": "As a developer or a startup with a small team you may not have a dedicated UX designer on staff. However, investing in good UI/UX design, testing your product with users, and following good design standards, adds so much value to your product. You don't need to be a designer to create good user experiences in your product.<br><br>This talk will help developers create unique user experiences, cover wireframing and prototyping tools, design inspiration resources such as Mobile-Patterns.com, and the importance of knowing your user.",
+    "speakers": [6],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": ["android", "ui", "ux"]
+  },
+  "109": {
+    "id": 109,
+    "title":"Knowing people's emotions can lead to better user experience",
+    "speakers": [8],
+    "description": "Use Google Cloud Vision API on Clover's AOSP platform to create a custom experience for customers. Have merchants turn frowns upside down with a little treat when the Google Cloud Vision API on Clover detects a sad face.",
+    "language" : "English",
+    "complexity": "Intermediate"
+  },
+  "110": {
+    "id": 110,
+    "title":"Angular2 - Removing the Chaos",
+    "speakers": [12],
+    "description": "There are so many things that need considered, transpiling, minifying, module imports, bundling, dev environment, production releases, code consistency, testing and so many others can detract from actual development. What if we could throw all of that away? Complexities in modern web development have increased dramatically over the past few years that can detract from actual development, to alleviate this we need to rely on tools to get things done. Join me in creating an Angular app by setting aside all of these concerns and focus on adding features that users care about.",
+    "language" : "English",
+    "complexity": "Intermediate"
+  },
+  "111": {
+    "id": 111,
+    "title":"Intro to NativeScript",
+    "speakers": [10],
+    "description": "Build truly native apps using Angular2 and NativeScript.  We will walk though the basics of angular2 using NativeScript Layouts, routing and a basic api call to use real data.",
+    "language" : "English",
+    "complexity": "Intermediate"
+  },
+  "112": {
+    "id": 112,
+    "title":"Killing the Relations with BigTable",
+    "speakers": [9],
+    "description": "In a world with a seemingly infinite amount of data, there way we store and retrieve data is becoming of ever increasing importance. Enter: BigTable. From serving applications such as Google Search, Maps, and Analytics — Google's BigTable has crafted a pathway for NoSQL database design and influenced technology such as Hadoop and Cassandra. This new cohort of non-relational databases are making strides in scalability, speed, and concurrency.",
+    "language" : "English",
+    "complexity": "Beginner"
+  },
+  "113": {
+    "id": 113,
+    "title":"Staying Relevant For All Your Years",
+    "speakers": [11],
+    "description": "Innovation never stops. Technology continually evolves, improves and changes.  If you're reading this, you love tech, and you love learning.  That's a good thing.  This talk provides inspiration on how to stay relevant through  innovations certain to influence your career by looking at the past and then future technology and diversity trends.   Imagine yourself in the not-so-distant future when augmented reality is the norm, and no typing or touching is required to communicate with a computer.   What will your skill set look like then?",
+    "language" : "English",
+    "complexity": "Beginner"
   }
 }

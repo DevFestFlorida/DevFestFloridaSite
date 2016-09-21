@@ -127,5 +127,166 @@
         "link": "https://github.com/juniperbelmont"
       }
     ]
+  },
+  "6": {
+    "id": 6,
+    "featured": false,
+    "name": "Justin Mitchell",
+    "title": "",
+    "company": "SoFriendly",
+    "country": " United States",
+    "photoUrl": "/images/people/justin_mitchell.jpg",
+    "bio": "Justin is a UI/UX designer with over 10 years of product design experience. He lead the design team at NXT-ID which went on to be a NASDAQ traded company. Justin is now co-founder and design lead at SoFriendly, a product design agency in Orlando which helps startups design delightful experiences that retain users and build loyal customers.",
+    "tags": ["android", "ui", "ux"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "http://twitter.com/itsthisjustin"
+      },
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "http://jmitch.com"
+      },
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "http://sofriend.ly"
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "featured": false,
+    "name": "Matt Dupree",
+    "title": "",
+    "company": "Tech Entrepreneur",
+    "country": " United States",
+    "photoUrl": "/images/people/matt_dupree.jpg",
+    "bio": "Matt is a wannabe philosophy professor turned wannabe tech entrepreneur. He's written mobile applications for dev shops, startups, and, most recently, Disney. He often writes about testing Android applications on his blog and he has a published O'Reilly report on using RxJava for Android applications. Currently, he's  working as a freelance mobile application developer and trying to find \"product-market fit\" for a startup he's working on.",
+    "tags": ["android", "testing", "espresso","reactive","tools"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/philosohacker"
+      },
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "http://www.philosophicalhacker.com"
+      }
+    ]
+  },
+  "8": {
+    "id": 8,
+    "featured": false,
+    "name": "James Cha",
+    "title": "Developer Advocate",
+    "company": "Clover",
+    "country": " United States",
+    "photoUrl": "/images/people/james_cha.jpg",
+    "bio": "James Cha is a developer advocate at Clover and a developer community ninja. He enjoys introducing technology to anyone who will give him a moment to do so. He takes his experience as a developer and an adjunct teacher to teach coding and clever ways to use the technology we have available to make life easier and more accessible for people.",
+    "tags": ["pwas", "web"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/thejamescha"
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "featured": false,
+    "name": "Neela Balkaran",
+    "title": "",
+    "company": "Ultimate Software",
+    "country": " United States",
+    "photoUrl": "/images/people/neela_balkaran.jpg",
+    "bio": "Neela is a software engineer at Ultimate Software. She graduated from the University of Central Florida with a master's degree in Computer Science in May 2016. She has previously been at Code School, Google, and Lockheed Martin. She thrives in the intersection of technology, humans, and education and doesn't yet know what she wants to be when she grows up. When not working or learning, she's a fan of yoga, capoeira, and playing piano and clarinet.",
+    "tags": ["pwas", "web"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/philpalmieri"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/philpalmieri"
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "featured": false,
+    "name": "Phil Palmieri",
+    "title": "",
+    "company": "Partnercomm",
+    "country": " United States",
+    "photoUrl": "/images/people/phil_palmieri.jpg",
+    "bio": "Phil has been coding for the web since the late 90’s focusing in PHP, Flash and JavaScript. He started out managing BSD and Linux servers and PHP sites for a travel agency, then moved on to Clear Channel in South Florida. After that, he ran the web department for the largest cruise franchise in the country — managing 400+ travel agent websites. In 2004, Phil moved to Orlando and built a CRM, SFA and Inventory platform for a manufacturing and distribution company. In 2005, he left to start his own web consultancy and development company. For 10 years, he provided consulting, web marketing, development and design for web, mobile, social media and more. In 2015, he closed up shop and took a less stressful position as Senior Developer for a major online travel agency. There he focused on airline, car rental and hotel booking systems for a year before coming to work for PartnerComm. Phil actively participates in local user groups and gives talks on development best practices and technologies.",
+    "tags": ["pwas", "web"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/philpalmieri"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/philpalmieri"
+      }
+    ]
+  },
+  "11": {
+    "id": 11,
+    "featured": false,
+    "name": "Christi Kapp",
+    "title": "",
+    "company": "DataPsy, Inc.",
+    "country": " United States",
+    "photoUrl": "/images/people/christi_kapp.jpg",
+    "bio": "Christi has experienced and thrived on the rapid technology changes from the 1970's to today.  She cut her teeth building a Sinclair in the late 1970's, then in the mid-1980's, she coded predictive analytics software to interpret data streams for the X-29 aircraft. Next came pre-XML - she built distributed trading systems in the early 1990's, and then became an entrepreneur in the late 1990's.  Since then, she has implemented many distributed business systems using web and database technologies.  Latest accomplishment was contributing a chapter to AAP's \"Ecosystems and Technology Idea Generation and Content Model Processing\".<br><br>Christi Kapp incorporated DataPsy, Inc. in 2015 to focus on coaching small business in modeling, managing and measuring strategic services.  She is also co-owner of JustIntegration, Inc. a company with interests in manufacturing and hospitality such as Art In Motion, LLC and Kapp & Kapp B&B.  From 2000 to 2002, Christine was the VP of Marketing and Operations for Digital Fusion (Nasdaq: DIGF). From 1994 to 1999, she was co-owner of TechKnowQuest, Inc, a computer training and consulting company listed as one of Central Florida’s Top 25 Fastest Growing Technology Companies.   In 1999, TechKnowQuest was acquired by DPAI Technology Services, and she became the VP of the Gulf States Region for DPAI/TechKnowQuest.  Ms. Kemp has a Master’s degree in Criminal Justice from the University of Central Florida (Thesis: “Regional Readiness for Intelligence Information Sharing to Support Homeland Security.” )  She also holds a Bachelor’s degree in Chemical Engineering from the University of Rochester.",
+    "tags": ["web"],
+    "socials": [
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "http://www.DataPsy.com"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/artinmotionllc"
+      }
+    ]
+  },
+  "12": {
+    "id":12,
+    "featured": false,
+    "name": "Mike Brocchi",
+    "title": "",
+    "company": "Angular CLI",
+    "country": " United States",
+    "photoUrl": "/images/people/mike_brocchi.jpg",
+    "bio": "Mike is a contributor and collaborator on the Angular CLI project. Mike works as an architect at CEI in the Pittsburgh area.",
+    "tags": ["pwas", "web"],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/Brocco"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "link": "https://github.com/Brocco"
+      }
+    ]
   }
 }
