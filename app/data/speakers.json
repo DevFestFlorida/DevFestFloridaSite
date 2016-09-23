@@ -271,6 +271,11 @@
         "name": "Twitter",
         "icon": "twitter",
         "link": "https://twitter.com/philosohacker"
+      },
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "http://www.philosophicalhacker.com"
       }
     ]
   },
