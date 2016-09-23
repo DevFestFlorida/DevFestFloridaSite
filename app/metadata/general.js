@@ -47,7 +47,7 @@ module.exports = {
   hashtag: 'DevFestFL',
   email: 'organizers@devfestflorida.org',
   organizer: {
-    name: 'GDG Lviv',
-    blog: 'http://lviv.gdg.org.ua'
+    name: 'GDG SunCoast, GDG Space Coast, GDG Central Florida',
+    blog: 'https://devfestflorida.org/blog?ref=website'
   }
 };

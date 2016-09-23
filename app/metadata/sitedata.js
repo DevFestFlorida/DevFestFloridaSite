@@ -17,7 +17,7 @@ module.exports = {
     buttonText: 'See how it was',
     video: {
       id: 't95z_HLMTmM',
-      title: 'GDG DevFest Ukraine 2014 - Highlights'
+      title: 'DevFest Florida 2016 - Highlights'
     }
   },
   galleryBlock: {

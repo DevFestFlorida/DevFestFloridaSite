@@ -27,7 +27,7 @@ module.exports = {
    {
     route: 'schedule',
     permalink: '/schedule',
-    text: '',
+    text: 'Schedule',
     heroSettings: {
       backgroundColor: '#607D8B',
       fontColor: '#FFFFFF',
