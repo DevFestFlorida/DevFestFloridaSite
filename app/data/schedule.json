@@ -7,7 +7,10 @@
         "title": "Main Room"
       },
       {
-        "title": "Room 2"
+        "title": "Web and Cloud Track"
+      },
+      {
+        "title": "Android Track"
       },
       {
         "title": "Hackathon Room"
@@ -37,9 +40,20 @@
       },
       {
         "startTime": "11:30",
+        "endTime": "12:00",
+        "sessions": [
+          [],
+          [107],
+          [105],
+          [102]
+        ]
+      },
+      {
+        "startTime": "12:00",
         "endTime": "12:30",
         "sessions": [
-          [107],
+          [],
+          [111],
           [105],
           [102]
         ]
@@ -50,14 +64,26 @@
         "sessions": [
           [1002],
           [1002],
+          [1002],
           [102]
         ]
       },
       {
         "startTime": "13:30",
+        "endTime": "14:00",
+        "sessions": [
+          [],
+          [110],
+          [104],
+          [102]
+        ]
+      },
+      {
+        "startTime": "14:00",
         "endTime": "14:30",
         "sessions": [
-          [103],
+          [],
+          [106],
           [104],
           [102]
         ]
@@ -66,6 +92,7 @@
         "startTime": "14:30",
         "endTime": "15:30",
         "sessions": [
+          [],
           [108],
           [115],
           [102]
@@ -75,6 +102,7 @@
         "startTime": "15:30",
         "endTime": "16:30",
         "sessions": [
+          [],
           [101],
           [112],
           [102]
@@ -86,6 +114,7 @@
         "sessions": [
           [1003],
           [1003],
+          [1003],
           [102]
         ]
       },
@@ -93,6 +122,7 @@
         "startTime": "17:00",
         "endTime": "18:00",
         "sessions": [
+          [],
           [109],
           [113],
           [102]

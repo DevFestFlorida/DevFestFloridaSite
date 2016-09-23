@@ -33,7 +33,7 @@
   },
   "1006": {
     "id": 1006,
-    "title": "After party & Networking",
+    "title": "After party and networking",
     "description": "The after party is a great place to have some fun and meet new people.<br/><br/><b>Location</b>: TBA<br/><br/>Don't forget to bring your badge.",
     "track": {
       "title": "TBA"
@@ -42,8 +42,8 @@
   },
   "1007": {
     "id": 1007,
-    "title": "Conference closing and contest winners announcements",
-    "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+    "title": "Conference closing, awards, and raffles",
+    "description": "Make sure you don't miss the closing ceremony! All gifts from our sponsors and partners will find their owners during this session.",
     "language": "English",
     "complexity": "Beginner",
     "tags": ["general"]
@@ -169,16 +169,16 @@
     "id": 113,
     "title": "Writing Testable Android Applications",
     "description": "For a long time, the support for testing on Android has been lacking. More recently, with support for unit testing (introduced in Android Studio 1.2) and Espresso, the tooling for testing Android applications has improved. Although we now have good testing tools available, many Android apps are structured in a way that makes it difficult for those apps to take advantage of these newer testing tools. This talk is about how to use dependency injection (with Dagger), MVP, and build flavors to write testable Android applications that make the most of Espresso and Android Studio's unit testing support.",
-    "speakers": [11],
+    "speakers": [12],
     "language": "English",
     "complexity": "Intermediate",
     "tags": ["android"]
   },
   "114": {
     "id": 114,
-    "title": "Writing Testable Android Applications",
-    "description": "For a long time, the support for testing on Android has been lacking. More recently, with support for unit testing (introduced in Android Studio 1.2) and Espresso, the tooling for testing Android applications has improved. Although we now have good testing tools available, many Android apps are structured in a way that makes it difficult for those apps to take advantage of these newer testing tools. This talk is about how to use dependency injection (with Dagger), MVP, and build flavors to write testable Android applications that make the most of Espresso and Android Studio's unit testing support.",
-    "speakers": [11],
+    "title": "TBA",
+    "description": "TBA",
+    "speakers": [13],
     "language": "English",
     "complexity": "Intermediate",
     "tags": ["android"]
