@@ -26,6 +26,11 @@
         "name": "GitHub",
         "icon": "github",
         "link": "https://github.com/splaktar"
+      },
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "https://blog.devintent.com"
       }
     ]
   },
