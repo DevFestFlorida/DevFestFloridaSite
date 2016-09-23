@@ -2,7 +2,7 @@ var config = require('../../config');
 
 module.exports = {
     baseurl: '',
-    url: 'https://devfestflorida.org/',
+    url: 'https://devfestflorida.org',
     // Google Analytics code
     trackerCode: 'UA-41029375-11',
     // Google Webmaster Tools verification code
