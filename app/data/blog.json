@@ -61,5 +61,14 @@
     "secondaryColor": "#673AB7",
     "image": "/images/posts/eventbrite-screenshot.jpg",
     "brief": "Tickets are now on sale! We've got 50 early bird tickets going for $50 each. The tickets go up to full price on October 4th. Folks, we've got fantastic speakers, Google Developer Experts, a Tango hackathon, free food and swag. If you're into Google technology and are going to be in the central Florida area on November 5th you HAVE to make this event!"
+  },
+  {
+    "id": "announcing-speakers",
+    "title": "DevFest 2016 Speaker Lineup",
+    "posted": "2016-09-19",
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#3F51B5",
+    "image": "/images/posts/speaker_announce.jpg",
+    "brief": "The full speaker lineup for DevFest Florida has been announced. We're thrilled to have such a knowledgeable and entertaining speaker lineup for our inaugural DevFest Florida event. Check them out and get your tickets now!"
   }
 ]
