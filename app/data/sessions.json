@@ -174,22 +174,13 @@
     "complexity": "Intermediate",
     "tags": ["android"]
   },
-  "114": {
-    "id": 114,
-    "title": "TBA",
-    "description": "TBA",
-    "speakers": [13],
-    "language": "English",
-    "complexity": "Intermediate",
-    "tags": ["android"]
-  },
   "115": {
     "id": 115,
-    "title": "Firebase on Android",
-    "description": "TBA.",
+    "title": "Playing With Fire(base)",
+    "description": "Firebase is a feature-rich platform that provides Android apps with a powerful foundation for acquiring users and keeping them engaged. For a recent news app I developed, I employed Cloud Messaging, Remote Config, Dynamic Links, and App Indexing. In this talk, I'll describe practical examples of how I used these features, as well as a few places where I nearly got burned. I'll explain how I: <ul><li>Implemented custom push notifications using Cloud Messaging</li><li>Defined simple A/B tests with Remote Config</li><li>Acquired users with Dynamic Links in app banners</li><li>Used App Indexing to get our app into search results</li><li>Recorded events and user properties to measure performance in Analytics</li></ul>",
     "speakers": [13],
     "language": "English",
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": ["android", "firebase"]
   }
 }
