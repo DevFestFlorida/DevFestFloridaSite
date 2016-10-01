@@ -1,11 +1,11 @@
 /*
-Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
-*/
+ Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+ This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+ The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+ The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+ Code distributed by Google as part of the polymer project is also
+ subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+ */
 
 'use strict';
 
@@ -44,28 +44,24 @@ gulp.task('ensureFiles', function(cb) {
 // Lint JavaScript
 gulp.task('lint-js', ['ensureFiles'], function() {
   return gulp.src([
-      'app/scripts/**/*.js',
-      '!app/scripts/analytics.js',
-      'app/elements/**/*.js',
-      'gulpfile.js'
-    ])
-    .pipe(reload({
-      stream: true,
-      once: true
-    }));
+    'app/scripts/**/*.js',
+    '!app/scripts/analytics.js',
+    'app/elements/**/*.js',
+    'gulpfile.js'
+  ]).pipe(reload({
+    stream: true,
+    once: true
+  }));
 
-    //.pipe($.if(!browserSync.active, $.jshint.reporter('fail')));
+  //.pipe($.if(!browserSync.active, $.jshint.reporter('fail')));
 });
 
 // Optimize images
 gulp.task('images', function() {
-  return gulp.src('app/images/**/*')
-    .pipe($.imagemin({
-      progressive: true,
-      interlaced: true
-    }))
-    .pipe(gulp.dest('dist/images'))
-    .pipe($.size({title: 'Copy optimized images to dist/images dir:'}));
+  return gulp.src('app/images/**/*').pipe($.imagemin({
+    progressive: true,
+    interlaced: true
+  })).pipe(gulp.dest('dist/images')).pipe($.size({title: 'Copy optimized images to dist/images dir:'}));
 });
 
 // Copy all files at the root level (app)
@@ -105,79 +101,70 @@ gulp.task('copy', function() {
     'app/posts/*'
   ]).pipe(gulp.dest('dist/posts'));
 
-  var icons = gulp.src(['app/themes/' + config.theme + '/icons.html'])
-    .pipe(gulp.dest('dist/themes/' + config.theme));
+  var icons = gulp.src(['app/themes/' + config.theme + '/icons.html']).pipe(gulp.dest('dist/themes/' + config.theme));
 
-  var components = gulp.src(['app/themes/' + config.theme + '/components/*.html'])
-    .pipe(gulp.dest('dist/themes/' + config.theme + '/components'));
+  var components = gulp.src(['app/themes/' + config.theme + '/components/*.html']).pipe(gulp.dest('dist/themes/' + config.theme +
+    '/components'));
 
-  var scripts = gulp.src(['app/scripts/analytics.js'])
-    .pipe(gulp.dest('dist/scripts'));
+  var scripts = gulp.src(['app/scripts/analytics.js']).pipe(gulp.dest('dist/scripts'));
 
-  return merge(app, bower, elements, assets, data, posts, icons, components, scripts)
-    .pipe($.size({title: 'Copy files to dist dir:'}));
+  return merge(app, bower, elements, assets, data, posts, icons, components, scripts).pipe($.size({title: 'Copy files to dist dir:'}));
 });
 
 // Copy web fonts to dist
 gulp.task('fonts', function() {
-  return gulp.src(['app/themes/' + config.theme + '/fonts/**/*.{css,woff,woff2}'])
-    .pipe(gulp.dest('dist/themes/' + config.theme + '/fonts'))
-    .pipe($.size({title: 'Copy fonts to dist/themes/' + config.theme + '/fonts dir:'}));
+  return gulp.src(['app/themes/' + config.theme + '/fonts/**/*.{css,woff,woff2}']).pipe(gulp.dest('dist/themes/' + config.theme +
+    '/fonts')).pipe($.size({title: 'Copy fonts to dist/themes/' + config.theme + '/fonts dir:'}));
 });
 
 // Scan your HTML for assets & optimize them
 gulp.task('html', function() {
   return gulp.src(['app/*.html', '.tmp/*.html'])
-    // Concatenate and minify JavaScript
-    .pipe($.if('*.js', $.uglify()))
-    .pipe($.useref({searchPath: 'dist'}))
-    // Minify any HTML
-    .pipe($.if('*.html', $.minifyHtml({
-      empty: true,  // KEEP empty attributes
-      loose: true,  // KEEP one whitespace
-      quotes: true, // KEEP arbitrary quotes
-      spare: true   // KEEP redundant attributes
-    })))
-    // Output files
-    .pipe(gulp.dest('dist'))
-    .pipe($.size({title: 'Copy optimized html and assets files to dist dir:'}));
+  // Concatenate and minify JavaScript
+  .pipe($.if('*.js', $.uglify())).pipe($.useref({searchPath: 'dist'}))
+  // Minify any HTML
+  .pipe($.if('*.html', $.minifyHtml({
+    empty: true,  // KEEP empty attributes
+    loose: true,  // KEEP one whitespace
+    quotes: true, // KEEP arbitrary quotes
+    spare: true   // KEEP redundant attributes
+  })))
+  // Output files
+  .pipe(gulp.dest('dist')).pipe($.size({title: 'Copy optimized html and assets files to dist dir:'}));
 });
 
 // Vulcanize granular configuration
 gulp.task('vulcanize', function() {
-  return gulp.src('dist/elements/base-bundle.html')
-    .pipe($.plumber())
-    .pipe($.vulcanize({
-      stripComments: true,
-      inlineCss: true,
-      inlineScripts: true
-    }))
-    // Split inline scripts from an HTML file for CSP compliance
-    .pipe($.crisper())
-    // Minify base-bundle.html
-    // https://github.com/PolymerLabs/polybuild/issues/3
-    .pipe($.if('*.html', $.htmlmin({
-      customAttrAssign: [
-        {source: '\\$='}
-      ],
-      customAttrSurround: [
-        [{source: '\\({\\{'}, {source: '\\}\\}'}],
-        [{source: '\\[\\['}, {source: '\\]\\]'}]
-      ],
-      removeComments: true,
-      collapseWhitespace: true
-    })))
-    // Remove newline characters
-    .pipe($.if('*.html', $.replace(/[\n]/g, '')))
-    // Remove 2 or more spaces from CSS
-    // (single spaces can be syntactically significant)
-    .pipe($.if('*.html', $.replace(/ {2,}/g, '')))
-    // Remove CSS comments
-    .pipe($.if('*.html', $.stripCssComments({preserve: false})))
-    // Minify base-bundle.js
-    // .pipe($.if('*.js', $.uglify()))
-    .pipe(gulp.dest('dist/elements'))
-    .pipe($.size({title: 'Copy vulcanized elements to dist/elements dir:'}));
+  return gulp.src('dist/elements/base-bundle.html').pipe($.plumber()).pipe($.vulcanize({
+    stripComments: true,
+    inlineCss: true,
+    inlineScripts: true
+  }))
+  // Split inline scripts from an HTML file for CSP compliance
+  .pipe($.crisper())
+  // Minify base-bundle.html
+  // https://github.com/PolymerLabs/polybuild/issues/3
+  .pipe($.if('*.html', $.htmlmin({
+    customAttrAssign: [
+      {source: '\\$='}
+    ],
+    customAttrSurround: [
+      [{source: '\\({\\{'}, {source: '\\}\\}'}],
+      [{source: '\\[\\['}, {source: '\\]\\]'}]
+    ],
+    removeComments: true,
+    collapseWhitespace: true
+  })))
+  // Remove newline characters
+  .pipe($.if('*.html', $.replace(/[\n]/g, '')))
+  // Remove 2 or more spaces from CSS
+  // (single spaces can be syntactically significant)
+  .pipe($.if('*.html', $.replace(/ {2,}/g, '')))
+  // Remove CSS comments
+  .pipe($.if('*.html', $.stripCssComments({preserve: false})))
+  // Minify base-bundle.js
+  // .pipe($.if('*.js', $.uglify()))
+  .pipe(gulp.dest('dist/elements')).pipe($.size({title: 'Copy vulcanized elements to dist/elements dir:'}));
 });
 
 // Generate config data for the <sw-precache-cache> element.
@@ -194,30 +181,33 @@ gulp.task('cache-config', function(callback) {
     disabled: false
   };
 
-  // URL’s with Query String parameters are treated as individual URL’s and
-  // need to be cached separately.
+  // URL’s with Query String parameters are treated as individual URL’s and need to be cached separately.
   // https://codelabs.developers.google.com/codelabs/offline/index.html#6
   glob([
-    'index.html',
-    'index.html?utm_source=web_app_manifest',
-    './?utm_source=web_app_manifest',
-    './',
-    'bower_components/webcomponentsjs/webcomponents-lite.min.js',
-    '{elements,scripts,themes,data,posts}/**/*.*'],
-    {cwd: dir}, function(error, files) {
-    if (error) {
-      callback(error);
-    } else {
-      config.precache = files;
+      'index.html',
+      'index.html?utm_source=web_app_manifest',
+      './?utm_source=web_app_manifest',
+      './',
+      'bower_components/webcomponentsjs/webcomponents-lite.min.js',
+      '{elements,scripts,themes,data,posts}/**/*.*'],
+    {cwd: dir},
+    function(error, files) {
+      if (error) {
+        callback(error);
+      } else {
+        config.precache = files;
 
-      var md5 = crypto.createHash('md5');
-      md5.update(JSON.stringify(config.precache));
-      config.precacheFingerprint = md5.digest('hex');
+        // Add randomness so that we don't only generate a different fingerprint when a new file is added
+        // We want every deploy to cause Service Workers to refresh their caches.
+        const buf = crypto.randomBytes(256);
+        var md5 = crypto.createHash('md5');
+        md5.update(JSON.stringify(config.precache + buf.toString('hex')));
+        config.precacheFingerprint = md5.digest('hex');
 
-      var configPath = path.join(dir, 'cache-config.json');
-      fs.writeFile(configPath, JSON.stringify(config), callback);
-    }
-  });
+        var configPath = path.join(dir, 'cache-config.json');
+        fs.writeFile(configPath, JSON.stringify(config), callback);
+      }
+    });
 });
 
 // Clean output directory
@@ -391,6 +381,6 @@ require('web-component-tester').gulp.init(gulp);
 // Load custom tasks from the `tasks` directory
 try {
   require('require-dir')('tasks/tests');
-} catch (err) {
+} catch(err) {
   // Do nothing
 }
