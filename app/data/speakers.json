@@ -287,13 +287,29 @@
   "13": {
     "id": 13,
     "featured": false,
-    "name": "TBA",
-    "title": "TBA",
-    "company": "TBA",
-    "country": " United States",
-    "photoUrl": "/images/people/",
-    "bio": "TBA",
+    "name": "Eric Fung",
+    "title": "Android Developer",
+    "company": "Shopify",
+    "country": "Toronto, Canada",
+    "photoUrl": "/images/people/eric_fung.jpg",
+    "bio": "Eric began his career in the embedded world, writing cryptographic toolkits. Since 2010, he has worked on various mobile apps and games, and is currently employed as an Android developer at Shopify. This year, Eric has begun to share his expertise through public speaking, and rebooted the Toronto Android Developers Meetup. In addition to coding, he enjoys baking. A lot. Eric holds a BMath degree from the University of Waterloo, Canada in Computer Science and Combinatorics & Optimization.",
     "tags": ["android", "firebase"],
-    "socials": []
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/gnufmuffin"
+      },
+      {
+        "name": "Blog",
+        "icon": "website",
+        "link": "http://www.gnufmuffin.com/"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "link": "https://github.com/efung"
+      }
+    ]
   }
 }
