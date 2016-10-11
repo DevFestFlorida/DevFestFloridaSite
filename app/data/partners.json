@@ -22,9 +22,27 @@
         "height": 100,
         "width": 200
     },{
+        "name": "Capgemini",
+        "url": "https://www.capgemini.com/",
+        "logoUrl": "../images/partners/capgemini.svg",
+        "height": 100,
+        "width": 200
+    },{
+        "name": "Code School",
+        "url": "https://www.codeschool.com/",
+        "logoUrl": "../images/partners/code-school.png",
+        "height": 100,
+        "width": 200
+    },{
         "name": "Vaadin",
         "url": "https://vaadin.com",
         "logoUrl": "../images/partners/vaadin-logo500.png",
+        "height": 100,
+        "width": 200
+    },{
+        "name": "DevIntent",
+        "url": "https://devintent.com",
+        "logoUrl": "../images/partners/devintent.svg",
         "height": 100,
         "width": 200
     }]
