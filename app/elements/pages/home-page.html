@@ -20,6 +20,30 @@
 
   <template>
 
+    <style>
+      .promo-container {
+        @apply(--layout-horizontal);
+        height: 800px;
+        background-color: #46B7D5;
+      }
+      .promo-image {
+        @apply(--layout-flex);
+      }
+      @media (max-width: 1439px) {
+        .promo-container {
+          height: 500px;
+        }
+      }
+      @media (max-width: 599px) {
+        .promo-container {
+          height: 300px;
+        }
+      }
+    </style>
+
+    <div class="promo-container">
+      <iron-image class="promo-image" src="/images/backgrounds/DevFestFLPromo.jpg" sizing="contain"></iron-image>
+    </div>
     <statistics-block cascaded></statistics-block>
     <featured-people people="{{people}}" cascaded></featured-people>
     <call-to-action cascaded></call-to-action>
