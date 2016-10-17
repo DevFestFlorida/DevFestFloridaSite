@@ -42,17 +42,16 @@ module.exports = {
       price: '50',
       currency: 'USD',
       info: '*Before October 4th',
+      soldOut: true
+    }, {
+      name: 'Lazy Bird',
+      price: '75',
+      currency: 'USD',
+      info: '*Ticket Sales End October 22nd',
       soldOut: false
     }
-    // , {
-    //   name: 'Lazy Bird',
-    //   price: 'TBA',
-    //   currency: 'USD',
-    //   info: '*After September 30',
-    //   soldOut: false
-    // }
   ],
-    details: 'Tickets grant access to all speaker sessions, breakouts, code labs, coffee breaks, lunch, and after party. Accommodation and/or travel is NOT included in the ticket price.'
+    details: 'Tickets grant access to all speaker sessions, breakouts, code labs, coffee breaks, lunch, and entrance to the after party. Accommodation and/or travel is NOT included in the ticket price.'
   },
   socialFeed: {
     source: '/data/tweets.json'
