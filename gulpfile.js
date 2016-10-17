@@ -178,7 +178,7 @@ gulp.task('cache-config', function(callback) {
   var dir = 'dist';
   var config = {
     cacheId: packageJson.name || path.basename(__dirname),
-    disabled: false
+    disabled: true
   };
 
   // URL’s with Query String parameters are treated as individual URL’s and need to be cached separately.
