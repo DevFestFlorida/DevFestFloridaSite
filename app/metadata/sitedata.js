@@ -1,6 +1,6 @@
 module.exports = {
   statistics: [{
-    counter: '100+',
+    counter: '50+',
     caption: 'Attendees'
   }, {
     counter: 2,
@@ -47,7 +47,7 @@ module.exports = {
       name: 'Lazy Bird',
       price: '75',
       currency: 'USD',
-      info: '*Ticket Sales End October 22nd',
+      info: '*Ticket Sales End October 25th',
       soldOut: false
     }
   ],

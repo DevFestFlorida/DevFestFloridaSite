@@ -45,6 +45,12 @@
         "logoUrl": "../images/partners/devintent.png",
         "height": 100,
         "width": 200
+    },{
+        "name": "NativeScript",
+        "url": "https://www.NativeScript.org",
+        "logoUrl": "../images/partners/nativescript.png",
+        "height": 100,
+        "width": 200
     }]
 },
  {
