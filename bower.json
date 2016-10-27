@@ -24,6 +24,7 @@
   },
   "ignore": [],
   "resolutions": {
-    "polymer": "1.3.x"
+    "polymer": "1.3.x",
+    "web-animations-js": "2.2.2"
   }
 }
