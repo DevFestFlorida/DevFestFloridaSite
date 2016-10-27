@@ -34,7 +34,7 @@
   };
 
   window.addEventListener('WebComponentsReady', () =>
-    console.log('Hello, folks! It is Project Hoverboard by GDG Lviv. Contact Oleh Zasadnyy for more details.'));
+    console.log('Hello, folks! It is Project Hoverboard from GDG-X. See https://github.com/gdg-x/hoverboard for more details.'));
 
   window.addEventListener('service-worker-error', e => {
     // Check to make sure caching is actually enabled—it won't be in the dev environment.
