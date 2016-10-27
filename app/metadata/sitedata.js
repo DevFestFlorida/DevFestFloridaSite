@@ -1,6 +1,6 @@
 module.exports = {
   statistics: [{
-    counter: '50+',
+    counter: '60+',
     caption: 'Attendees'
   }, {
     counter: 2,
@@ -48,7 +48,7 @@ module.exports = {
       price: '75',
       currency: 'USD',
       info: '*Ticket Sales End October 25th',
-      soldOut: false
+      soldOut: true
     }
   ],
     details: 'Tickets grant access to all speaker sessions, breakouts, code labs, coffee breaks, lunch, and entrance to the after party. Accommodation and/or travel is NOT included in the ticket price.'
