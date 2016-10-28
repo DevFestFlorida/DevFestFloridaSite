@@ -70,5 +70,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/speaker_announce.jpg",
     "brief": "The full speaker lineup for DevFest Florida has been announced. We're thrilled to have such a knowledgeable and entertaining speaker lineup for our inaugural DevFest Florida event. Check them out and get your tickets now!"
+  },
+  {
+    "id": "capgemini",
+    "title": "Capgemini - DevFest Florida Gold Sponsor",
+    "posted": "2016-10-28",
+    "primaryColor": "#ffdf11",
+    "secondaryColor": "#FFffdf11",
+    "image": "/images/posts/capgemini.jpg",
+    "brief": "We're very appreciative of Capgemini for being a Gold Sponsor of DevFest Florida. Learn a little bit more about Capgemini and see if they can help out your business needs."
   }
 ]

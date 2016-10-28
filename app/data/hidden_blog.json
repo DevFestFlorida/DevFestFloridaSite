@@ -1,0 +1,28 @@
+
+{
+  "id": "codeschool",
+  "title": "Code School - DevFest Florida Gold Sponsor",
+  "posted": "2016-10-30",
+  "primaryColor": "#ffdf11",
+  "secondaryColor": "#FFffdf11",
+  "image": "/images/posts/codeschool.jpg",
+  "brief": "We're very appreciative of Code School for being a Gold Sponsor of DevFest Florida. Learn a little bit more about Code School and see if there's a course they're offering that can help you learn a new language or further your career."
+},
+{
+  "id": "nativescript",
+  "title": "NativeScript - DevFest Florida Gold Sponsor",
+  "posted": "2016-11-01",
+  "primaryColor": "#ffdf11",
+  "secondaryColor": "#FFffdf11",
+  "image": "/images/posts/nativescript-logo.jpg",
+  "brief": "We're very appreciative of NativeScript for being a Gold Sponsor of DevFest Florida. Learn a little bit more about NativeScript and see how they're making developing mobile apps even easier."
+},
+{
+  "id": "traversoft",
+  "title": "Traversoft - DevFest Florida Diamond Sponsor",
+  "posted": "2016-11-03",
+  "primaryColor": "#03A9F4",
+  "secondaryColor": "#ffffffff",
+  "image": "/images/posts/traversoft.jpg",
+  "brief": "We're very appreciative of Traversoft for being our only Diamond Sponsor. Learn about what mobile apps Traversoft has helped build & enhance and see if you're interested in hiring Traversoft to assist you with your mobile projects."
+}

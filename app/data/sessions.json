@@ -1,30 +1,35 @@
 {
   "1001": {
     "id": 1001,
+    "track": "General",
     "title": "Registration",
     "description": "Get your badge and then enjoy networking with great people!",
     "tags": ["general"]
   },
   "1002": {
     "id": 1002,
+    "track": "General",
     "title": "Lunch",
     "description": "Lunch break",
     "tags": ["general"]
   },
   "1003": {
     "id": 1003,
+    "track": "General",
     "title": "Break",
     "description": "Break",
     "tags": ["general"]
   },
   "1004": {
     "id": 1004,
+    "track": "General",
     "title": "DevFest Florida Keynote",
     "description": "Keynote presentation",
     "tags": ["general"]
   },
   "1005": {
     "id": 1005,
+    "track": "General",
     "title": "GDG DevFest Florida 2016 Opening",
     "description": "Official start of the conference. Greetings from the organizers, sponsors, and partners.",
     "language": "English",
@@ -33,6 +38,7 @@
   },
   "1006": {
     "id": 1006,
+    "track": "General",
     "title": "After party and networking",
     "description": "The after party is a great place to have some fun and meet new people.<br/><br/><b>Location</b>: TBA<br/><br/>Don't forget to bring your badge.",
     "track": {
@@ -42,6 +48,7 @@
   },
   "1007": {
     "id": 1007,
+    "track": "General",
     "title": "Conference closing, awards, and raffles",
     "description": "Make sure you don't miss the closing ceremony! All gifts from our sponsors and partners will find their owners during this session.",
     "language": "English",
@@ -50,6 +57,7 @@
   },
   "101": {
     "id": 101,
+    "track": "Web & Cloud",
     "title": "Build your MVP with Angular 2, Firebase, Polymer",
     "description": "If you need to build a MVP for an idea or startup, then you need to have tools that work right now and ultra-productive. Angular 2 provides a great starting point for this, but you still need to handle Authentication, database, back-end servers, and quality UI components. AngularFire2 makes the Authentication easy. It provides a real-time, managed database. This means no servers to setup! Angular2-Polymer gives you easy access to the huge library of standards-based Polymer Web Components. This includes Material Design components, Flexbox Layouts, data grids, and Google components like Google Maps.",
     "speakers": [1],
@@ -65,6 +73,7 @@
   },
   "102": {
     "id": 102,
+    "track": "Tango Hackathon",
     "title": "Tango Hackathon",
     "description": "Join Hackathon teams and build Virtual Reality or Augmented Reality apps on real Tango devices.",
     "speakers": [],
@@ -77,6 +86,7 @@
   },
   "103": {
     "id": 103,
+    "track": "Web & Cloud",
     "title": "Innovating is not about technology, but psychology",
     "description": "“It is the recognition that well-read is not a destination, there is nowhere to get to and if there was somewhere to get to, you would need a thousand years to even think about getting there.” -Linda Holmes<br><br>Many people strive to be “well-read” as developers or designers, they want to know & do it all. But why? All in the name of being “well-read”? All just to say “Yeah — I’ve done that”?<br><br>Why do we do what we do? Why do we try so hard? Why are we here, paying to be here, to listen to people talk? Maybe because we’re life long learners - we want to learn new things? Commune with our own kind? But why? Come examine our motives as developers, the pitfalls we fall into, and the cost of being great.",
     "speakers": [3],
@@ -86,6 +96,7 @@
   },
   "104": {
     "id": 104,
+    "track": "Android",
     "title": "Multi-Window and Your App",
     "description": "Vendors large and small have offered multiple windows in their Android devices. Now, with Android 7.0, we are getting multiple windows in standard Android... and in the new Android-on-ChromeOS environment. This class will explore how to support multi-window modes in your Android applications, with particular emphasis on the split-screen mode for phones and tablets. We will look at how your app will behave in these environments without any changes and how you can make minor tweaks to improve your results. We will also examine what quirks will be seen with multi-window mode and what sorts of UX decisions you will need to make as a result. Finally, we will see how you can start testing your app in these modes, to begin making tactical changes and run experiments for longer-term strategic choices.",
     "speakers": [2],
@@ -95,6 +106,7 @@
   },
   "105": {
     "id": 105,
+    "track": "Android",
     "title": "Developing Apps for Daydream and Tango",
     "description": "Starting an App with a Virtual or Augmented reality component is a bit daunting for most. When starting out, frameworks like Unity3D or Unreal Engine simplify a great many things.<br><br>But, from an Android developer perspective, you need to forget all about the nice APIs and libraries you're used to. You'll need to shoehorn your business logic in frameworks that are designed to build games first, not apps -- not a great proposition.<br><br>Let's explore the path less traveled together! In this session, we'll see how you can build VR and AR applications, in Java and Android Studio, thanks to Google's Daydream and Tango Java SDKs, plus a few helpful 3D graphics libraries.",
     "speakers": [4],
@@ -104,6 +116,7 @@
   },
   "106": {
     "id": 106,
+    "track": "Web & Cloud",
     "title": "Why (not) build Progressive Web Apps?",
     "description": "Progressive Web Apps (PWAs) are the new big thing in web development, but it’s a mistake to simply endorse or reject them. More than a set of technologies, PWAs are about reframing how we build apps for the web and mobile. They’re about building speed and security and responsiveness right into the app instead of relying on fast devices and connections. They’re about making web apps do everything native apps can do without rewriting your entire codebase for different platforms.<br><br>In this talk you’ll learn how to build progressive web apps and decide why you might or might not want to.",
     "speakers": [5],
@@ -113,6 +126,7 @@
   },
   "107": {
     "id": 107,
+    "track": "Web & Cloud",
     "title": "Knowing people's emotions can lead to better user experience",
     "description": "Use Google Cloud Vision API on Clover's AOSP platform to create a custom experience for customers. Have merchants turn frowns upside down with a little treat when the Google Cloud Vision API on Clover detects a sad face.",
     "speakers": [6],
@@ -122,6 +136,7 @@
   },
   "108": {
     "id": 108,
+    "track": "Web & Cloud",
     "title": "Angular 2 - Removing the Chaos",
     "description": "There are so many things that need considered, transpiling, minifying, module imports, bundling, dev environment, production releases, code consistency, testing and so many others can detract from actual development. What if we could throw all of that away? Complexities in modern web development have increased dramatically over the past few years that can detract from actual development, to alleviate this we need to rely on tools to get things done. Join me in creating an Angular app by setting aside all of these concerns and focus on adding features that users care about.",
     "speakers": [7],
@@ -131,6 +146,7 @@
   },
   "109": {
     "id": 109,
+    "track": "Web & Cloud",
     "title": "Intro to NativeScript",
     "description": "Build truly native apps using Angular2 and NativeScript. We will walk though the basics of Angular 2 using NativeScript Layouts, routing, and a basic api call to use real data.",
     "speakers": [8],
@@ -140,6 +156,7 @@
   },
   "110": {
     "id": 110,
+    "track": "Web & Cloud",
     "title": "Killing the Relations with BigTable",
     "description": "In a world with a seemingly infinite amount of data, there way we store and retrieve data is becoming of ever increasing importance. Enter: BigTable. From serving applications such as Google Search, Maps, and Analytics — Google's BigTable has crafted a pathway for NoSQL database design and influenced technology such as Hadoop and Cassandra. This new cohort of non-relational databases are making strides in scalability, speed, and concurrency. No SQL? Is that even a database? Come learn about what BigTable is, how it works, and why you might want to consider trying out a NoSQL database.",
     "speakers": [9],
@@ -149,6 +166,7 @@
   },
   "111": {
     "id": 111,
+    "track": "Web & Cloud",
     "title": "Staying Relevant For All Your Years",
     "description": "Innovation never stops. Technology continually evolves, improves and changes. If you're reading this, you love tech, and you love learning. That's a good thing. This talk provides inspiration on how to stay relevant through innovations certain to influence your career by looking at the past and then future technology and diversity trends. Imagine yourself in the not-so-distant future when augmented reality is the norm, and no typing or touching is required to communicate with a computer. What will your skill set look like then?",
     "speakers": [10],
@@ -158,6 +176,7 @@
   },
   "112": {
     "id": 112,
+    "track": "Android",
     "title": "Designing as a Developer",
     "description": "As a developer or a startup with a small team you may not have a dedicated UX designer on staff. However, investing in good UI/UX design, testing your product with users, and following good design standards, adds so much value to your product. You don't need to be a designer to create good user experiences in your product. This talk will help developers create unique user experiences, cover wireframing and prototyping tools, design inspiration resources such as Mobile-Patterns.com, and the importance of knowing your user.",
     "speakers": [11],
@@ -167,6 +186,7 @@
   },
   "113": {
     "id": 113,
+    "track": "Android",
     "title": "Writing Testable Android Applications",
     "description": "For a long time, the support for testing on Android has been lacking. More recently, with support for unit testing (introduced in Android Studio 1.2) and Espresso, the tooling for testing Android applications has improved. Although we now have good testing tools available, many Android apps are structured in a way that makes it difficult for those apps to take advantage of these newer testing tools. This talk is about how to use dependency injection (with Dagger), MVP, and build flavors to write testable Android applications that make the most of Espresso and Android Studio's unit testing support.",
     "speakers": [12],
@@ -176,6 +196,7 @@
   },
   "115": {
     "id": 115,
+    "track": "Android",
     "title": "Playing With Fire(base)",
     "description": "Firebase is a feature-rich platform that provides Android apps with a powerful foundation for acquiring users and keeping them engaged. For a recent news app I developed, I employed Cloud Messaging, Remote Config, Dynamic Links, and App Indexing. In this talk, I'll describe practical examples of how I used these features, as well as a few places where I nearly got burned. I'll explain how I: <ul><li>Implemented custom push notifications using Cloud Messaging</li><li>Defined simple A/B tests with Remote Config</li><li>Acquired users with Dynamic Links in app banners</li><li>Used App Indexing to get our app into search results</li><li>Recorded events and user properties to measure performance in Analytics</li></ul>",
     "speakers": [13],
