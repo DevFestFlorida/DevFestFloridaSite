@@ -22,5 +22,8 @@ Traversoft is available for contracting. If you’re looking for help with your 
   <a class="button-link" href="https://twitter.com/traversoft" target="_blank">
     <paper-icon-button icon="icons:twitter"></paper-icon-button>
   </a>
+  <a class="button-link" href="https://www.linkedin.com/in/michaelrtraverso" target="_blank">
+    <paper-icon-button icon="icons:linkedin"></paper-icon-button>
+  </a>
 
 </div>
