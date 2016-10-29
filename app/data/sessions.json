@@ -157,8 +157,8 @@
   "110": {
     "id": 110,
     "room": "Web & Cloud",
-    "title": "Killing the Relations with BigTable",
-    "description": "In a world with a seemingly infinite amount of data, there way we store and retrieve data is becoming of ever increasing importance. Enter: BigTable. From serving applications such as Google Search, Maps, and Analytics — Google's BigTable has crafted a pathway for NoSQL database design and influenced technology such as Hadoop and Cassandra. This new cohort of non-relational databases are making strides in scalability, speed, and concurrency. No SQL? Is that even a database? Come learn about what BigTable is, how it works, and why you might want to consider trying out a NoSQL database.",
+    "title": "Killing the Relations with Bigtable",
+    "description": "In a world with a seemingly infinite amount of data, there way we store and retrieve data is becoming of ever increasing importance. Enter: Bigtable. From serving applications such as Google Search, Maps, and Analytics — Google's Bigtable has crafted a pathway for NoSQL database design and influenced technology such as Hadoop and Cassandra. This new cohort of non-relational databases are making strides in scalability, speed, and concurrency. No SQL? Is that even a database? Come learn about what Bigtable is, how it works, and why you might want to consider trying out a NoSQL database.",
     "speakers": [9],
     "language": "English",
     "complexity": "Beginner",
