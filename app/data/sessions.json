@@ -39,10 +39,10 @@
   "1006": {
     "id": 1006,
     "track": "General",
-    "title": "After party and networking",
-    "description": "The after party is a great place to have some fun and meet new people.<br/><br/><b>Location</b>: TBA<br/><br/>Don't forget to bring your badge.",
+    "title": "After party and networking by Nativescript",
+    "description": "The after party is a great place to have some fun and meet new people. We'll be meeting nearby in the Sea Dog Brewing Company's indoor Pub. Thanks to Nativescript's generous sponsorship, we'll be providing free appetizers for attendees! The brewery has a wide selection of food, beer, wine, and cocktails for you to purchase, if desired.<br/><br/><b>Location</b>: <a href='http://www.seadogbrewing.com/orlandoLOC.php' target='_blank'>Sea Dog Brewing Co.</a>, <a href='https://goo.gl/maps/yC1jxf79qZG2' target='_blank'>8496 Palm Parkway Orlando, FL 32836</a><br/><br/>Don't forget to bring your badge.",
     "track": {
-      "title": "TBA"
+      "title": "Sea Dog Brewing Co."
     },
     "tags": ["general"]
   },
