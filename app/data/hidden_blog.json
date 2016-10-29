@@ -1,7 +1,7 @@
 ,
   {
     "id": "codeschool",
-    "title": "Gold Sponsor",
+    "title": "Gold Sponsor - Code School",
     "posted": "2016-10-30",
     "primaryColor": "#D5AB2A",
     "secondaryColor": "#D5AB2A",
@@ -10,7 +10,7 @@
   },
   {
     "id": "nativescript",
-    "title": "Gold Sponsor",
+    "title": "Gold Sponsor - Nativescript",
     "posted": "2016-11-01",
     "primaryColor": "#D5AB2A",
     "secondaryColor": "#D5AB2A",
@@ -19,7 +19,7 @@
   },
   {
     "id": "vaadin",
-    "title": "Gold Sponsor",
+    "title": "Gold Sponsor - Vaadin",
     "posted": "2016-11-02",
     "primaryColor": "#D5AB2A",
     "secondaryColor": "#D5AB2A",
@@ -28,7 +28,7 @@
   },
   {
     "id": "traversoft",
-    "title": "Diamond Sponsor",
+    "title": "Diamond Sponsor - Traversoft",
     "posted": "2016-11-03",
     "primaryColor": "#7DB1DB",
     "secondaryColor": "#7DB1DB",
