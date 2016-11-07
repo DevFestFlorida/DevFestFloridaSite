@@ -197,18 +197,18 @@
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://goo.gl/photos/e4FPjXYXJYUh9YqSA",
+    "albumUrl": "https://goo.gl/photos/kqpSV8jBktprXtXH6",
     "photos": {
-      "big": "/images/backgrounds/AndroidDevFestSpaceCoast2014_AndroidTV.jpg",
+      "big": "/images/backgrounds/DevFestFLOpening.jpg",
       "small": [
-        "/images/backgrounds/AndroidDevFestSpaceCoast2014_Design-Winners.jpg",
-        "/images/backgrounds/AndroidDevFestSpaceCoast2014_Auditorium.jpg"
+        "/images/backgrounds/DevFestFLOrganizersAndVolunteers.jpg",
+        "/images/backgrounds/DevFestFLSponsorBooth.jpg"
       ]
     }
   },
   "location": {
     "apiKey": "AIzaSyDhlDqyb5mOtdHMsrQpMuYkbIegvj030Q4",
-    "link": "https://www.facebook.com/expopivdennij",
+    "link": "https://www.facebook.com",
     "pointer": {
       "latitude": 28.387020,
       "longitude": -81.505013,
