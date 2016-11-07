@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Core Team",
+    "members": [
+      {
+        "name": "Mike Traverso",
+        "title": "Venue, Swag, Ticketing, Social Media, Website",
+        "photoUrl": "/images/people/mike_traverso.png",
+        "socials": [
+          {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/traversoft"
+          },
+          {
+            "name": "Google+",
+            "icon": "gplus",
+            "link": "https://plus.google.com/u/0/112805179625337768339"
+          },
+          {
+            "name": "Website",
+            "icon": "website",
+            "link": "http://www.traversoft.com/"
+          }
+        ]
+      },
+      {
+        "name": "Michael Prentice",
+        "title": "Speakers, Social Media, Website",
+        "photoUrl": "/images/people/michael_prentice.jpg",
+        "socials": [
+          {
+            "name": "Google+",
+            "icon": "gplus",
+            "link": "https://plus.google.com/+MichaelPrentice/"
+          },
+          {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/splaktar"
+          },
+          {
+            "name": "GitHub",
+            "icon": "github",
+            "link": "https://github.com/splaktar"
+          },
+          {
+            "name": "Blog",
+            "icon": "website",
+            "link": "https://blog.devintent.com"
+          }
+        ]
+      },
+      {
+        "name": "Christi Kapp",
+        "title": "Swag, Finance, Sponsors, Venue, Accommodations",
+        "photoUrl": "/images/people/christi_kapp.png",
+        "socials": [
+          {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/artinmotionllc"
+          },
+          {
+            "name": "Website",
+            "icon": "website",
+            "link": "http://www.DataPsy.com"
+          }
+        ]
+      },
+      {
+        "name": "Alyssa Nicoll",
+        "title": "Sponsors, Venue",
+        "photoUrl": "/images/people/alyssa_nicoll.jpg",
+        "socials": [
+          {
+            "name": "Blog",
+            "icon": "website",
+            "link": "http://alyssa.io/"
+          },
+          {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/AlyssaNicoll"
+          }
+        ]
+      },
+      {
+        "name": "Siva G",
+        "title": "Sponsors",
+        "photoUrl": "/images/people/siva_g.jpg",
+        "socials": [
+          {
+            "name": "Blog",
+            "icon": "website",
+            "link": "https://sivag1.wordpress.com/"
+          },
+          {
+            "name": "Google+",
+            "icon": "gplus",
+            "link": "https://plus.google.com/u/0/+SivaG1"
+          }
+        ]
+      }
+    ]
+  }
+]

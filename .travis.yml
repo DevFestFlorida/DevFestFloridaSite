@@ -1,26 +1,28 @@
 language: node_js
-sudo: false
+node_js: 6
+cache:
+  directories:
+  - node_modules
+  - bower_components
+  - "${NVM_PATH}_modules"
+env:
+- CXX=g++-4.8
 addons:
-  firefox: latest
   apt:
     sources:
-      - google-chrome
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - google-chrome-stable
-      - g++-4.8
-node_js:
-  - '4.2'
-  - '5.1'
-before_script:
-  - 'export DISPLAY=:99.0'
-  - sh -e /etc/init.d/xvfb start
-  - sleep 3
-  - npm i -g bower@1.7.1 gulp@3.9.0 firebase-tools@2.2.0
-  - bower i
-script:
-  - ./travis-runner.sh
-env:
-  global:
-    - "CXX='g++-4.8'"
-    - secure: SbcQ7plU7aRGQlaAG2ffMhSvEs84073YSljOQ62DZAjRxgizMhF4xM7H2mPrmac9YRM4IBrQRvBKMMZy3L6OhN8gwpm8o+w2zV+5Q1fwpY9V8bilznnhp1JUY6jrB2l7aLTOFxt/cG+5ABxiupwWz/n+I7BaByYhBiHWntIBgDc528eecRNDYI5R36KWjLO/yr+SdElvyxDlDOdJGaluPvgMItbinFGcE1hYb/Jqrkkw8zpE6CTDmvMOq1aRBWSo9afgh2zDeKc02lTYP/4N0xcn8CqzHF7k5zGWHjN9DR8Ep8Bp1ff/sM7zHGZBqgVhn5WGv305jBQY6eOxiTp5cDP0WVIOjgJeM5rBu9hBQxhZSaMKBPr2B1NYUjIwTVQkBsnR4sr095Ugjg8JCZAmEevf/Ysl4CzQyW3gT+WcEluqjxUuicQWDclH6L/kOVPBJ+Eqdo/LY3G1tpLcc6fsvj4FlVO6LPTrbMyCagwQvnjX3uIdFyuthqtWWrHKQMGx2Ow9suNUi8Hyvk7WboS1Z6jrLIcs1rvXSX8rQmlMR5vJBK3Ejg6fS1OHxn/lrtLhj4lDLB9r/Fcu2PEHT1lcvQqsTa3W+t4Fk1qaShUlBDiwMbZWZgmlf1SdG5OzK1yrPLjTTdRFdqJGgb6TANCdetgczRWynvjIhr5IDMxvfJg=
+    - g++-4.8
+install:
+- npm install -g bower polymer-cli
+- bower install
+script: echo "Deploying!"
+before_deploy: polymer build
+deploy:
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+  project: project-811917516708118473
+  token:
+    secure: QfrNakeq3yk3C7kdqRjq+xkYbedMWkr6CddGUoeE3CEGCrKNERlKc9r+nxhyj389rM3+PHdkD3PAgKXPGlc+/2Zy54lFAsnhrpEi+bE4dkgnYon0IqvTEQjg/Fuhmyeudml3lzZmF40f668DUWnFGCrA2r4xJvkZD1/I/bK816Fc9J8GUT4iDAKXOUukB5vxb3m5L7H6EjKyFQ/1Rl/wCqnMXt789Wvs61vX1vPT6RnAzLKtRhO2i8eP6RWApZwbLh7cuOHanfHFM1v4fjpGp8JNCW58zO0O4MQHciTDq2VH8ZvPbOpjrblwWuSyorv62mtppct0ij83r6nU2W4e8jxOf/nGtpmFu+JK+uUgd27j4jQTn0nfCPFeW+8+fh1oxKKZ3QZAO1EIW8iozSpW4BMTquSto4HtW84ZswzYIpjCCXaIruSVsmi/meweCGMohey9bSUA5qovXGpRRwCAQ2tp+vn2l3MPK3qONV5jHLVctXVgv72qGXr/8qxjuJBNnlPSrCnqgAufXTkNptvrcCWQHeXl/3ZW1N84JqGsqzEhgn9E1HyuTACSv5eka2csPI289nAybpTuFUOs/XOQ+bPmeaNW19Mz5gphqWZun3oM3laoXqZUM0OHOOPOROQFfJ65H1OrdSHjvXUNnXtdwSskbiy6K8n0mJ5Zcgeh+xQ=

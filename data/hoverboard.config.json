@@ -1,0 +1,232 @@
+{
+  "firebase": {
+    "name": "devfestflorida",
+    "domain": "devfestflorida.firebaseapp.com",
+    "database": "https://devfestflorida.firebaseio.com",
+    "api": "AIzaSyDhlDqyb5mOtdHMsrQpMuYkbIegvj030Q4",
+    "userSessionsPath": "/userSessions"
+  },
+  "pages": {
+    "home": {
+      "headerSettings": {
+        "backgroundColor": "#FF9800",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "video": {
+          "title": "GDG DevFest Florida 2016",
+          "youtubeId": "TdpbgRgz6eE",
+          "text": "See how it was in 2016"
+        },
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "blog": {
+      "headerSettings": {
+        "backgroundColor": "#03a9f4",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "speakers": {
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "cod": {
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
+  },
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/"
+    }
+  ],
+  "url": "https://devfestflorida.org",
+  "mailchimp": {
+    "url": "//firebaseapp.us13.list-manage.com/subscribe/post?u=3f4db9aefbaccd123ad402ffd&amp;id=74fc03d0fa",
+    "name": "GDG DevFest Florida 2016"
+  },
+  "partnershipProposition": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal.pdf",
+  "disqusShortName": "devfestflorida",
+  "languages": [
+    {
+      "name": "English",
+      "key": "en"
+    },
+    {
+      "name": "Spanish",
+      "key": "es"
+    }
+  ],
+  "footerBlocks": [
+    {
+      "title": "for-visitors",
+      "links": [
+        {
+          "text": "team",
+          "url": "/team/"
+        },
+        {
+          "text": "cod",
+          "url": "/blog/posts/code-of-conduct/"
+        },
+        {
+          "text": "google-developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "for-partners",
+      "links": [
+        {
+          "text": "partnership-proposition",
+          "url": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal.pdf",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "contactBlock": {
+    "links": [
+      {
+        "text": "organizers@devfestflorida.org",
+        "url": "mailto:organizers@devfestflorida.org"
+      }
+    ]
+  },
+  "tickets": {
+    "url": "https://devfestflorida.eventbrite.com/?aff=website",
+    "elements": [
+      {
+        "name": "early-ticket",
+        "price": 50,
+        "currency": "$",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": true
+      },
+      {
+        "name": "lazy-ticket",
+        "price": 75,
+        "currency": "$",
+        "starts": "lazy-ticket-starts",
+        "ends": "lazy-ticket-ends",
+        "soldOut": true
+      }
+    ]
+  },
+  "teamPageTitle": "team-page-title",
+  "teamPageText": "team-page-text",
+  "statistics": [
+    {
+      "counter": "60+",
+      "caption": "attendees"
+    },
+    {
+      "counter": 1,
+      "caption": "days"
+    },
+    {
+      "counter": "10+",
+      "caption": "sessions"
+    },
+    {
+      "counter": 3,
+      "caption": "tracks"
+    }
+  ],
+  "hashtag": "DevFestFL",
+  "social": [
+    {
+      "name": "twitter",
+      "nickname": "DevFestFlorida",
+      "url": "https://twitter.com/DevFestFlorida"
+    },
+    {
+      "name": "gplus",
+      "nickname": "+DevFestFloridaOrg",
+      "url": "https://plus.google.com/+DevFestFloridaOrg"
+    },
+    {
+      "name": "facebook",
+      "nickname": "devfestflorida",
+      "url": "https://www.facebook.com/devfestflorida"
+    }
+  ],
+  "tweetsSource": "/data/tweets.json",
+  "gallery": {
+    "albumUrl": "https://goo.gl/photos/e4FPjXYXJYUh9YqSA",
+    "photos": {
+      "big": "/images/backgrounds/AndroidDevFestSpaceCoast2014_AndroidTV.jpg",
+      "small": [
+        "/images/backgrounds/AndroidDevFestSpaceCoast2014_Design-Winners.jpg",
+        "/images/backgrounds/AndroidDevFestSpaceCoast2014_Auditorium.jpg"
+      ]
+    }
+  },
+  "location": {
+    "apiKey": "AIzaSyDhlDqyb5mOtdHMsrQpMuYkbIegvj030Q4",
+    "link": "https://www.facebook.com/expopivdennij",
+    "pointer": {
+      "latitude": 28.387020,
+      "longitude": -81.505013,
+      "zoom": 13
+    },
+    "mapCenter": {
+      "latitude": 28.3869642,
+      "longitude": -81.5051866
+    },
+    "images": [
+      "/images/backgrounds/orlando_1.jpg",
+      "/images/backgrounds/orlando_2.jpg",
+      "/images/posts/sheraton-night-shot.jpg"
+    ]
+  },
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "callToAction": {
+    "videoTitle": "action-title",
+    "videoId": "DfMnJAzOFng"
+  }
+}
