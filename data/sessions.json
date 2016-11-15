@@ -99,6 +99,7 @@
     "room": "Android",
     "title": "Multi-Window and Your App",
     "description": "Vendors large and small have offered multiple windows in their Android devices. Now, with Android 7.0, we are getting multiple windows in standard Android... and in the new Android-on-ChromeOS environment. This class will explore how to support multi-window modes in your Android applications, with particular emphasis on the split-screen mode for phones and tablets. We will look at how your app will behave in these environments without any changes and how you can make minor tweaks to improve your results. We will also examine what quirks will be seen with multi-window mode and what sorts of UX decisions you will need to make as a result. Finally, we will see how you can start testing your app in these modes, to begin making tactical changes and run experiments for longer-term strategic choices.",
+    "presentation": "https://commonsware.com/presos/2016-11-MW-ChromeOS",
     "speakers": [2],
     "language": "English",
     "complexity": "Beginner",
