@@ -140,30 +140,37 @@
     "elements": [
       {
         "name": "early-ticket",
-        "price": 50,
+        "price": 75,
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": true
+        "soldOut": false,
+        "notAvailableYet": false
+      },
+      {
+        "name": "ontime-ticket",
+        "price": 100,
+        "currency": "$",
+        "starts": "ontime-ticket-starts",
+        "ends": "ontime-ticket-ends",
+        "soldOut": false,
+        "notAvailableYet": true
       },
       {
         "name": "lazy-ticket",
-        "price": 75,
+        "price": 125,
         "currency": "$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
-        "soldOut": true
+        "soldOut": false,
+        "notAvailableYet": true
       }
     ]
   },
   "teamPageTitle": "team-page-title",
   "teamPageText": "team-page-text",
   "statistics": [
-    {
-      "counter": "60+",
-      "caption": "attendees"
-    },
     {
       "counter": 1,
       "caption": "days"
