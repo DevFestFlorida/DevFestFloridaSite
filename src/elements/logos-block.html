@@ -68,6 +68,11 @@
 
     <div class="container">
       <h4 class="heading text-center">[[localize('partners')]]</h4>
+
+      <a href="https://devfestflorida.eventbrite.com/?aff=website" style="margin-left: 24px;" target="_blank">
+        <paper-button class="colorful" raised style="font-weight: 400; margin: 16px 0">[[localize('become-a-partner')]]</paper-button>
+      </a>
+
       <template is="dom-repeat" items="[[app.partners]]" as="block">
         <div class="logos-block-wrapper">
           <h5 class="logos-block-title text-center">[[block.title]]</h5>
