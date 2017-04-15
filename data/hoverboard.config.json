@@ -86,6 +86,10 @@
     "name": "GDG DevFest Florida 2016"
   },
   "partnershipProposition": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal.pdf",
+  "callForPaperUrl": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform",
+    "title": "Submit talk"
+  },
   "disqusShortName": "devfestflorida",
   "languages": [
     {

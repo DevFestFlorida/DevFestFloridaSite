@@ -115,5 +115,14 @@
     "secondaryColor": "#7DB1DB",
     "image": "/images/posts/traversoft.jpg",
     "brief": "We're very appreciative of Traversoft for being our only Diamond Sponsor. Learn about what mobile apps Traversoft has helped build & enhance and see if you're interested in hiring Traversoft to assist you with your mobile projects."
+  },
+  {
+    "id": "cfp-open",
+    "title": "Open Call for Talks",
+    "posted": "2017-04-12",
+    "primaryColor": "#673AB7",
+    "secondaryColor": "#673AB7",
+    "image": "/images/posts/open-cfp.png",
+    "brief": "We're baaaaack! And preparing this DevFest to be even better than last year. If you've got a great talk about anything in the Google technology space, an amazing app or library, a new process or technique and want to share it (and enjoy some nice weather in November) we want to hear from you! - <a href='https://devfestflorida.org'>DevFest Florida 2017."
   }
 ]
