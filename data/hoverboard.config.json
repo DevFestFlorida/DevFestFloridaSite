@@ -143,18 +143,28 @@
     "url": "https://devfestflorida.eventbrite.com/?aff=website",
     "elements": [
       {
+        "name": "faithful-ticket",
+        "price": 80,
+        "currency": "$",
+        "starts": "faithful-ticket-starts",
+        "ends": "faithful-ticket-ends",
+        "info": "faithful-ticket-info",
+        "soldOut": false,
+        "notAvailableYet": false
+      },
+      {
         "name": "early-ticket",
-        "price": 75,
+        "price": 100,
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
         "info": "early-ticket-info",
         "soldOut": false,
-        "notAvailableYet": false
+        "notAvailableYet": true
       },
       {
         "name": "ontime-ticket",
-        "price": 100,
+        "price": 125,
         "currency": "$",
         "starts": "ontime-ticket-starts",
         "ends": "ontime-ticket-ends",
@@ -163,7 +173,7 @@
       },
       {
         "name": "lazy-ticket",
-        "price": 125,
+        "price": 150,
         "currency": "$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
