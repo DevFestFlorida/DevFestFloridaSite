@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <path d="M187.65,152.206L108.65,25.806L86.85,25.806C82.45,25.806 80.85,28.806 83.05,32.506L136.05,119.006L136.35,119.406L172.25,176.906L187.65,152.206L187.65,152.206Z" style="fill:white;fill-rule:nonzero;"/>
+        <path d="M199.85,132.506C202.15,128.806 202.15,122.806 199.85,119.106L146.25,32.506C143.95,28.806 138.55,25.806 134.25,25.806L112.25,25.806L189.45,149.306L199.85,132.506Z" style="fill:white;fill-rule:nonzero;"/>
+        <path d="M154.95,155.006L110.75,225.806L134.25,225.806C138.55,225.806 144.05,222.806 146.25,219.106L167.65,184.506C167.75,184.406 167.85,184.106 168.25,183.506L170.45,179.906L154.95,155.006Z" style="fill:white;fill-rule:nonzero;"/>
+        <path d="M136.15,132.506L83.15,219.006C80.85,222.706 82.55,225.706 86.95,225.706L107.25,225.706L153.25,152.106L137.85,127.306C137.55,129.206 136.95,131.006 136.15,132.506Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <g>
+            <g transform="matrix(1,0,0,1,237.529,182.233)">
+                <text x="0px" y="0px" style="font-family:'ProductSans-Regular', 'Product Sans', sans-serif;font-size:64px;fill:white;">20</text>
+            </g>
+            <g transform="matrix(1,0,0,1,311.001,182.233)">
+                <text x="0px" y="0px" style="font-family:'ProductSans-Regular', 'Product Sans', sans-serif;font-size:64px;fill:white;">17</text>
+            </g>
+        </g>
+        <g>
+            <g transform="matrix(1,0,0,1,232.156,114.261)">
+                <text x="0px" y="0px" style="font-family:'NotoSans-Bold', 'Noto Sans', sans-serif;font-weight:700;font-size:72px;fill:white;">De</text>
+            </g>
+            <g transform="matrix(1,0,0,1,327.289,114.261)">
+                <text x="0px" y="0px" style="font-family:'NotoSans-Bold', 'Noto Sans', sans-serif;font-weight:700;font-size:72px;fill:white;">vFest</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,535.24,114.261)">
+            <text x="0px" y="0px" style="font-family:'NotoSans-Bold', 'Noto Sans', sans-serif;font-weight:700;font-size:72px;fill:white;">Florida</text>
+        </g>
+    </g>
+</svg>

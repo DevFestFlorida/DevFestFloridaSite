@@ -9,8 +9,8 @@
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
+        "backgroundColor": "#03A9F4",
+        "backgroundImage": "/images/backgrounds/devfest-florida-home-banner.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
@@ -68,12 +68,12 @@
       "permalink": "/blog/"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
       "route": "speakers",
       "permalink": "/speakers/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
     },
     {
       "route": "team",
@@ -85,7 +85,11 @@
     "url": "//firebaseapp.us13.list-manage.com/subscribe/post?u=3f4db9aefbaccd123ad402ffd&amp;id=74fc03d0fa",
     "name": "GDG DevFest Florida 2016"
   },
-  "partnershipProposition": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal.pdf",
+  "partnershipProposition": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal-17.pdf",
+  "callForPaperUrl": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfcchhhaKETrOEVY-h5EngpTby7QMJl_G2LEl8XjYP5nXIS4g/viewform",
+    "title": "Submit talk"
+  },
   "disqusShortName": "devfestflorida",
   "languages": [
     {
@@ -121,7 +125,7 @@
       "links": [
         {
           "text": "partnership-proposition",
-          "url": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal.pdf",
+          "url": "https://storage.googleapis.com/devfestflorida.appspot.com/DevFestFloridaPartnershipProposal-2017.pdf",
           "newTab": true
         }
       ]
@@ -139,31 +143,48 @@
     "url": "https://devfestflorida.eventbrite.com/?aff=website",
     "elements": [
       {
+        "name": "faithful-ticket",
+        "price": 80,
+        "currency": "$",
+        "starts": "faithful-ticket-starts",
+        "ends": "faithful-ticket-ends",
+        "info": "faithful-ticket-info",
+        "soldOut": false,
+        "notAvailableYet": false
+      },
+      {
         "name": "early-ticket",
-        "price": 50,
+        "price": 100,
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": true
+        "soldOut": false,
+        "notAvailableYet": true
+      },
+      {
+        "name": "ontime-ticket",
+        "price": 125,
+        "currency": "$",
+        "starts": "ontime-ticket-starts",
+        "ends": "ontime-ticket-ends",
+        "soldOut": false,
+        "notAvailableYet": true
       },
       {
         "name": "lazy-ticket",
-        "price": 75,
+        "price": 150,
         "currency": "$",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
-        "soldOut": true
+        "soldOut": false,
+        "notAvailableYet": true
       }
     ]
   },
   "teamPageTitle": "team-page-title",
   "teamPageText": "team-page-text",
   "statistics": [
-    {
-      "counter": "60+",
-      "caption": "attendees"
-    },
     {
       "counter": 1,
       "caption": "days"

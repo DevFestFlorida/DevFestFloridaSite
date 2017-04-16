@@ -135,8 +135,8 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
-                          alt="GDG DevFest Florida 2016"></iron-image>
+              <iron-image class="logo" src="/images/logo-light-[[localize('year')]].svg" sizing="contain"
+                          alt="GDG DevFest Florida [[localize('year')]]"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
               <!--<div class="open-video" on-tap="_openVideo">-->
@@ -144,7 +144,9 @@
                 <!--{{localize('play-icon')}}-->
               <!--</div>-->
               <div class="action-buttons">
-                <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
+                <paper-button class="blueviolet largefont" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
+
+                <paper-button class="blueviolet largefont" on-tap="_submitTalk" raised>{{localize('c4p')}}</paper-button>
               </div>
             </div>
           </div>
@@ -218,8 +220,12 @@
             behavior: 'smooth',
             target: HOVERBOARD.Elements.Scroller
           });
-        }
+        },
 
+        _submitTalk: function() {
+          HOVERBOARD.Analytics.trackEvent('cfp', 'tap', this.app.data.callForPaperUrl.title);
+          window.open(this.app.data.callForPaperUrl.url, '_blank');
+        }
       });
 
     }());

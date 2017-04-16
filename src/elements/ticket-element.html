@@ -139,6 +139,7 @@
     <div class="side">
       <div class="side-content">[[type]]</div>
     </div>
+    <div class="overlay" hidden$="{{!notAvailableYet}}">[[notAvailableYetText]]</div>
     <div class="overlay" hidden$="{{!soldOut}}">[[soldOutText]]</div>
   </template>
 
@@ -185,6 +186,15 @@
           },
 
           soldOutText: {
+            type: String
+          },
+
+          notAvailableYet: {
+            type: Boolean,
+            value: false
+          },
+
+          notAvailableYetText: {
             type: String
           }
         }
