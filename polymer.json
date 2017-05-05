@@ -1,5 +1,21 @@
 {
   "entrypoint": "index.html",
+  "builds": [{
+    "name": "bundled",
+    "bundle": true,
+    "addServiceWorker": true,
+    "swPrecacheConfig": "sw-precache-config.js",
+    "js": {"minify": true, "compile": true},
+    "css": {"minify": true},
+    "html": {"minify": true}
+  }, {
+    "name": "unbundled",
+    "addServiceWorker": true,
+    "swPrecacheConfig": "sw-precache-config.js",
+    "js": {"minify": true, "compile": true},
+    "css": {"minify": true},
+    "html": {"minify": true}
+  }],
   "shell": "src/hoverboard-app.html",
   "fragments": [
     "src/pages/blog-list.html",
@@ -19,7 +35,7 @@
     "bower.json",
     "manifest.json"
   ],
-  "includeDependencies": [
+  "extraDependencies": [
     "bower_components/webcomponentsjs/webcomponents-lite.min.js"
   ]
 }

@@ -9,5 +9,7 @@ module.exports = {
     '/data/**/*'
   ],
   navigateFallback: '/index.html',
-  navigateFallbackWhitelist: [ /^\/[^\_]+\// ]
+  navigateFallbackWhitelist: [ /^\/[^\_]+\// ],
+  replacePrefix: '.',
+  verbose: true
 };
