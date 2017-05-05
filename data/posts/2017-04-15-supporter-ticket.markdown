@@ -6,17 +6,19 @@ To save at least **20%** off of an early bird ticket get yourself a Faithful Sup
 
 Last year we had some truly expert speakers. Four of whom are part of the Google Developer Experts program and all were experts in their field and gave some truly incredible talks.
 
-These are only available for a short while and once they're gone they're gone. This ticket gets you:
+These are only available for a short while and once they're gone, they're gone. 
+
+### This ticket gets you:
 
 🎟️  Into DevFest for the day
 
 🏷️  Personalized badge & lanyard
 
-🎙  ️Access to the keynote and all the session [2016 Speakers](/speakers/) and [2016 Sessions](/schedule/)
+🎙  ️Access to the keynote and all [Sessions](/schedule/)
 
 🍽️  Lunch
 
-🍻  Access to the after conference party
+🍻  Access to the conference after party
 
 🏆  Chances to win prizes
 
